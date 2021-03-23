@@ -1,0 +1,181 @@
+*{
+    box-sizing:border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+h2 {
+    color: chocolate;
+    text-transform: uppercase;
+
+}
+
+
+.mehr{
+    background-color: chocolate;
+
+}
+
+
+
+
+.align {
+    text-align: center;
+}
+
+
+header {
+    display:flex;
+    padding: 10px 80px;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+.header1{
+    background-image: url(../images/frontpage.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.header2{
+    background-image: url(../images/hintergrund.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header2 h2{
+    color: white;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px 80px;
+}
+footer nav {
+    display: flex;
+
+}
+
+footer nav a {
+    display: flex;
+}
+
+footer a{
+    display: flex;
+}
+
+
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    
+    
+}
+
+footer a{
+    display: flex;
+    color:white;
+    text-transform: uppercase;
+}
+
+.space ul li a{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 5px 0px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 0px;
+    
+}
+
+.spaceinside{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 0px;
+}
+
+
+
+@media screen and (max-width: 560px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+}
+
+
+
